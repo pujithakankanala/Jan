@@ -1,0 +1,11 @@
+# this is my first python program
+print('hello world!')
+print('what is your name')
+myname =input()
+print('my name is ,'+ myname)
+print('lenth of your name is:')
+print(len(myname))
+print('what is your age?')
+myage=input()
+print('my age is ,'+myage)
+print('your age will be  ' + str(int(myage)+1) + ' in a year')
