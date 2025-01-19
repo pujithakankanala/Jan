@@ -8,3 +8,5 @@ d=str(a)
  line comments"""
 print(type(d))
 print(c)
+print('hello', end=' ')
+print('pujitha')
