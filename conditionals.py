@@ -14,9 +14,20 @@ else:
 a,b=input().split()
 a,b=b,a
 #swapping of two numbers
-print(a,b)"""
+print(a,b)
 
 #for loop
 x=0
-for x in range(0,5,2):
-    print(x)
+for x in range(2,-5,-1):
+    print(x) 
+
+"""#while loop
+x=0
+while x<5:
+    if x==2:
+        x=x+1
+        continue
+    print(x,end=" ")
+    x=x+1
+
+
