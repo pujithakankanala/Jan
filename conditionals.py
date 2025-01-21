@@ -25,8 +25,7 @@ for x in range(2,-5,-1):
 x=0
 while x<5:
     if x==2:
-        x=x+1
-        continue
+        break
     print(x,end=" ")
     x=x+1
 
