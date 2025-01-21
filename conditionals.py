@@ -21,12 +21,20 @@ x=0
 for x in range(2,-5,-1):
     print(x) 
 
-"""#while loop
+#while loop
 x=0
 while x<5:
     if x==2:
         break
     print(x,end=" ")
-    x=x+1
+    x=x+1"""
+
+i = 0
+while i < 5:
+    if i == 2:
+        continue
+    else:
+        print(i,end = " ")   
+        i += 1
 
 
