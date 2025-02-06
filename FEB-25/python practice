@@ -32,7 +32,7 @@ print(text1)
 # string split
 
 a=" i am writing/python"
-b=a.split("/")
+b=a.split(" ")
 print(b)
 
 # string strip
@@ -49,3 +49,11 @@ if substring in text:
     print(substring, "found in text")
 else:
     print(substring, "not found in text")
+
+#string slicing
+
+name="pujitha"
+str3=name.endswith("a")
+print(str3)
+print(name[2:4])
+print(name.format())
