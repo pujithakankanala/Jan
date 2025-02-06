@@ -9,6 +9,7 @@ def sub():
 def mul():
     mul=a*b
     print(mul)
+
 def div():
     div=a//b
     print(div)
