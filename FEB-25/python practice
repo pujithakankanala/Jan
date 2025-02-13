@@ -1,0 +1,59 @@
+#Datatypes
+# Strings
+#string Concaticanation
+
+str1= "hello"
+str2= "World!!"
+res= str1+ " " +str2
+print(res)
+
+
+#string upper
+
+name= "pujitha"
+print(name.upper())
+
+#string lower
+
+name="Srinath"
+print(name.lower())
+
+#string length
+
+n ="this is my first python program"
+print(len(n))
+
+# string replace
+
+text= "i am learning python"
+text1= text.replace("learning", "writing")
+print(text1)
+
+# string split
+
+a=" i am writing/python"
+b=a.split(" ")
+print(b)
+
+# string strip
+
+stext= " some space arround "
+stripped_text=stext.strip()
+print(stripped_text)
+
+#substring
+
+text="finding substring in python"
+substring="is"
+if substring in text:
+    print(substring, "found in text")
+else:
+    print(substring, "not found in text")
+
+#string slicing
+
+name="pujitha"
+str3=name.endswith("a")
+print(str3)
+print(name[2:4])
+print(name.format())

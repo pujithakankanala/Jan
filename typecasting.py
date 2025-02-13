@@ -8,5 +8,16 @@ d=str(a)
  line comments"""
 print(type(d))
 print(c)
-print('hello', end=' ')
+print('hello', sep='!')
 print('pujitha')
+
+"""concatination
+num1=input('enter the number')
+num2=input('enter the second number')
+num1=int(num1)
+num2=int(num2)
+result=num1+num2
+print(result)"""
+
+#seperator
+print("hello","world", sep=' ')
